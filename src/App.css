@@ -1,0 +1,32 @@
+@keyframes color {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+
+  @media (max-width: 1024px) {
+  .svg-wave {
+    height: 350px;
+  }
+}
+
+
+
+@media (min-width: 1024px) {
+  .svg-wave {
+    height: 400px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .svg-wave {
+    height: 500px;
+  }
+}
